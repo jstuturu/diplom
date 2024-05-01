@@ -146,7 +146,7 @@ body {
     height: 32px;
 }
 .overlay {
-    display: none;
+    display: flex;
     position: fixed;
     width: 100%;
     height: 100%;
