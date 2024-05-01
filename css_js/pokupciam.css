@@ -1,0 +1,6 @@
+.container-pokupciam {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+}
