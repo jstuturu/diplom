@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_js/styles1.css?v=0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <div class="overlay" id="overlay">
+    <div class="overlay-content">
+    <div class="overlay-content-inside">
+        <div class="overlay-content-header">
+            <div class="overlay-content-header-text">Кошик</div>
+            <button class="overlay-close" onclick="closeOverlay()"><img src="pics/3943324.png"></button>
+        </div>
+        
+        <div class="overlay-list"> 
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White апівааівіаваі
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White апівааівіаваі
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White апівааівіаваі
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            <div class="overlay-list-item">
+                <div class="overlay-list-item-pic"> 
+                    <img src="pics/pccooler-k4-white.png">
+                </div>
+                <div class="overlay-list-item-name">
+                    Кулер PCCooler K4 White
+                </div>
+                <div class="overlay-list-item-count">
+                    <div class="counter-container">
+                    <button class="overlay-button-counter" style="margin-right: 1px;"  onclick="decrement()">-</button>
+                    <input class="overlay-input-number" type="text" id="counter" value="1" min="1" readonly>
+                    <button class="overlay-button-counter" style="margin-left: 1px;" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="overlay-list-item-price">
+                    1111999 грн.
+                </div>
+                <div class="overlay-list-item-delete">
+                <button class="overlay-list-item-close" onclick=""><img src="pics/3943324.png"></button>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="overlay-create-zamovlennya"> 
+            <div class="overlay_do_splati">
+                <div style="width: 40%;">
+                До сплати:
+                </div>
+                <div style="width: 60%; text-align: right; margin-right: 20px;"> 
+                    432442 грн.
+                </div>
+            </div>
+            <a href="#" class="overlay_do_splati_link">
+                <div>
+                    Оформити замовлення
+                </div>
+            </a>
+        </div>
+        
+    </div>
+    </div>
+</div>
+    <div class="navmob">
+        <a href="#">
+        <div class="logomob">
+                <img src="pics/logo.png" class="imglogomob">
+            </div>
+        </a>
+    </div>
+        <div class="nav"> 
+            <a href="index.php">
+            <div class="logo">
+                <img src="pics/logo.png" class="imglogo">
+            </div>
+            </a>
+            <div class="catalog">
+                <button class="catalogbutton" id="toggleMenu">
+                <img src="pics/burger.png">  
+                    <p>Каталог</p>
+                </button>
+            </div>
+
+    
+        
+            <div class="searchp">
+                <input type="text" placeholder="Я хочу знайти...">
+                <button class="searchbutton" type="submit">
+                    <img src="pics/search.png">
+                </button>
+            </div>
+            
+            <div class="basket">
+                <a href="#" id="basketButton">
+                <img src="pics/korzina.png">
+                </a>
+            </div>
+
+            <!-- Якщо не авторизований то цей блок -->
+            <div class="profile">
+                <a href="logreg.php">
+                <img src="pics/user.png">
+                <p>Увійти</p>
+            </a>
+            </div>
+            <!-- Якщо авторизований то цей блок -->
+            <!--
+            <div class="profile">
+                <a href="#">
+                <img src="pics/user.png">
+                <p>Профіль</p>
+            </a>
+            </div>
+            -->
+        </div>
+    </div>
+    <div class="father-container-menu"> 
+
+    <div  class="container-menu">
+    <div id="menu" class="menu">
+        <a href="#" class="menuLink" data-target="additionalDiv1" id="komplektuyuchi" >Комплектуючі</a>
+        <div id="additionalDiv1" class="additionalDiv">
+            <div class="column">
+                <a href="#">    <b>Відеокарти</b></a>
+                    <a href="#">Відеокарти AMD</a>
+                    <a href="#">Відеокарти NVIDIA</a>
+            </div>
+            <div class="column">
+                <a href="#">   <b>Процесори</b></a>
+                    <a href="#">Процесори Intel</a>
+                    <a href="#">Процесори AMD</a>
+            </div>
+            <div class="column">
+                <a href="#"><b>Корпуси</b></a>
+                    <a href="#">Всі корпуси</a>
+                    <a href="#">Корпуси з ARGB</a>
+            </div>
+           
+            <div class="column">
+                <a href="#"><b>HDD (жорсткі диски)</b></a>
+                    <a href="#">HDD 2.5</a>
+                    <a href="#">HDD 3.5</a>
+                    <a href="#">Зовнішні HDD</a>
+            </div>
+            <div class="column">
+                <a href="#"><b>RAM (оперативна пам'ять)</b></a>
+                    <a href="#">DDR4</a>
+                    <a href="#">DDR5</a>
+            </div>
+            <div class="column">
+                <a href="#"><b>SSD (тверд.накопичувачі)</b></a>
+                    <a href="#">SSD M.2 NVMe</a>
+                    <a href="#">SSD M.2 SATA</a>
+                    <a href="#">SSD 2.5" SATA</a>
+            </div>
+            <div class="column">
+                <a href="#"><b>Блоки живлення</b></a>
+                    <a href="#">Блоки до 500 Вт</a>
+                    <a href="#">Блоки від 500 до 800 Вт </a>
+                    <a href="#">Блоки від 800 Вт </a>
+            </div>
+            <div class="column">
+                <a href="#"><b>Материнські плати</b></a>
+                    <a href="#">Плати ASUS</a>
+                    <a href="#">Плати Gigabyte</a>
+                    <a href="#">Плати MSI</a>
+                    <a href="#">Плати AsRock</a>
+                
+            </div>
+            <div class="column">
+                <a href="#"><b>Системи охолодження</b></a>
+                    <a href="#">Повітряне охолодження для CPU</a>
+                    <a href="#">Водяне охолодження для CPU</a>
+                    <a href="#">Термопасти</a>
+                    <a href="#">Вентилятори для корпусів</a>
+            </div>
+    </div>
+    <a href="#" class="menuLink" data-target="additionalDiv2" id="monitori">Монітори</a>
+    <div id="additionalDiv2" class="additionalDiv">
+            <div class="column">
+                <a href="#">   <b>Добірки моніторів</b></a>
+                    <a href="#">Монітори 240 Гц</a>
+                    <a href="#">Монітори 180 Гц</a>
+                    <a href="#">Монітори 144 Гц</a>
+                    <a href="#">Монітори 60 Гц</a>
+                    <a href="#">Для геймінгу</a>
+                    <a href="#">Для роботи з кольором</a>
+            </div>
+            <div class="column">
+                <a href="#">    <b>Монітори по брендам</b></a>
+                    <a href="#">MSI</a>
+                    <a href="#">Asus</a>
+                    <a href="#">Acer</a>
+                    <a href="#">Gigabyte</a>
+                    <a href="#">MSI</a>
+            </div>
+    </div>
+    <a href="#" class="menuLink" data-target="additionalDiv3" id="perefiriya">Периферія</a>
+    <div id="additionalDiv3" class="additionalDiv">
+            <div class="column">
+            <a href="#">    <b>Маніпулятори</b></a>
+                    <a href="#">Клавіатури</a>
+                    <a href="#">Миші</a>
+                    <a href="#">Килимки</a>
+                    <a href="#">Геймпади</a>
+            </div>
+            <div class="column">
+            <a href="#">    <b>Аудіотехніка</b></a>
+                    <a href="#">Навушники</a>
+                    <a href="#">Акустичні системи</a>
+                    <a href="#">Мікрофони</a>
+            </div>
+            <div class="column">
+            <a href="#">    <b>Веб-камери</b></a>
+                    <a href="#">Ultra HD 4K</a>
+                    <a href="#">2K</a>
+                    <a href="#">Full HD</a>
+                    <a href="#">HD</a>
+            </div>
+        </div>
+    <a href="#" class="menuLink" data-target="additionalDiv4" id="notebooki">Ноутбуки</a>
+    <div id="additionalDiv4" class="additionalDiv">
+            <div class="column">
+            <a href="#">    <b>Веб-камери</b></a>
+                    <a href="#">Apple</a>
+                    <a href="#">Acer</a>
+                    <a href="#">Asus</a>
+                    <a href="#">Lenovo</a>
+                    <a href="#">MSI</a>
+            </div>
+            <div class="column">
+            <a href="#">    <b>Веб-камери</b></a>
+            <a href="#">SSD для ноутбуків</a>
+                    <a href="#">ОЗП для ноутбуків</a>
+                    <a href="#">Миші</a>
+                    <a href="#">Зовнішні HDD</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <script src="css_js/jsheader.js"></script>
+    <script> 
+        
+        
+   
+        function openOverlay() {
+            document.getElementById("overlay").style.display = "flex";   
+            document.body.classList.add("overlay-open");         
+        }
+
+
+        function closeOverlay() {
+            document.getElementById("overlay").style.display = "none";
+            document.body.classList.remove("overlay-open");
+        }
+
+
+        document.getElementById("basketButton").addEventListener("click", function(event){
+            event.preventDefault(); 
+            openOverlay(); 
+        });
+        
+        const counterElement = document.getElementById("counter");
+
+        function increment() {
+            counterElement.value++;
+        }
+
+        function decrement() {
+            if (counterElement.value > 1) {
+                counterElement.value--;
+            }
+        }
+    
+    </script>
+</body>
+</html>
